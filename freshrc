@@ -10,7 +10,12 @@
 
 fresh freshshell/fresh bin/fresh --bin
 fresh jpettersson/dotfiles shell/rails_bash_prompt.sh
-fresh config/gitconfig --file
-fresh config/gitignore --file
-fresh config/gemrc --file
 
+# config
+fresh config/\* --file
+
+# shell
+fresh shell/\*
+
+# aliases
+fresh aliases/\*
