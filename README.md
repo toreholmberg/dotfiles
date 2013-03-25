@@ -3,7 +3,8 @@
 
 1. clone repo to ``~/.dotfiles``
 2. install [freshshell](http://freshshell.com/)
-3. symlink freshrc file ``ln -s ~/.dotfiles/freshrc ~/.freshrc`` (override generated file)
-4. add ``source ~/.fresh/build/shell.sh`` to your shell config 
-5. run ``fresh update``
-5. reload shell ``source ~/.bash_profile``
+3. remove generated freshrc file ``rm ~/.freshrc``
+4. symlink freshrc file from repo ``ln -s ~/.dotfiles/freshrc ~/.freshrc``
+5. add ``source ~/.fresh/build/shell.sh`` to your shell config 
+6. run ``fresh update``
+7. reload shell ``source ~/.bash_profile``
