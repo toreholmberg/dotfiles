@@ -1,2 +1,1 @@
-dotfiles
-========
+[freshshell](http://freshshell.com/) .dotfiles 
