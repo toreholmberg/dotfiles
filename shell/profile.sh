@@ -1,6 +1,9 @@
 # enable rvm
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
+# ssh-add permanent
+ssh-add ~/.ssh/id_rsa &>/dev/null
+
 # aww colors..
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
