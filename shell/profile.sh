@@ -1,5 +1,8 @@
-# enable rvm
+# load RVM into a shell session *as a function*
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+# adapt PATH environment variable for use with MacPorts
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
 # ssh-add permanent
 ssh-add ~/.ssh/id_rsa &>/dev/null
