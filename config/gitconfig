@@ -1,13 +1,15 @@
 [user]
   name = Tore Holmberg
   email = tore.holmberg@gmail.com
+[push]
+  default = simple
 [color]
   branch = auto
   diff = auto
   status = auto
 [color "branch"]
   current = yellow reverse
-  local = yellow 
+  local = yellow
   remote = green
 [color "diff"]
   meta = yellow bold
