@@ -5,4 +5,4 @@ alias flushdns='dscacheutil -flushcache'
 alias chrome_no_security="open -a '/Applications/Google Chrome.app' --args --disable-web-security"
 
 # simple http server
-alias simpleserver='python -m SimpleHTTPServer'
+alias http='python -m SimpleHTTPServer $1'
