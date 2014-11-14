@@ -2,7 +2,7 @@
 fresh freshshell/fresh bin/fresh --bin
 
 # remote
-fresh jpettersson/dotfiles shell/rails_bash_prompt.sh
+fresh jpettersson/dotfiles shell/prompt.sh
 
 # config
 fresh config/\* --file
@@ -12,6 +12,3 @@ fresh shell/\*
 
 # aliases
 fresh aliases/\*
-
-# local
-fresh local/\*
