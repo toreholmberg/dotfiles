@@ -5,6 +5,9 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 [ -s "$HOME/.nvm/nvm.sh" ] && . "$HOME/.nvm/nvm.sh" # This loads nvm
 
+# use stable node version
+nvm use stable
+
 # adapt PATH environment variable for use with Homebrew
 export PATH=/usr/local/sbin:$PATH
 
