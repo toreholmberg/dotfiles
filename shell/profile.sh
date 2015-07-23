@@ -8,6 +8,9 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 # use default node version
 nvm use default
 
+# ulimit
+ulimit -n 10000
+
 # adapt PATH environment variable for use with Homebrew
 export PATH=/usr/local/sbin:$PATH
 
