@@ -10,5 +10,5 @@ fresh config/\* --file
 # shell
 fresh shell/\*
 
-# aliases
-fresh aliases/\*
+# helpers
+fresh helpers/\*

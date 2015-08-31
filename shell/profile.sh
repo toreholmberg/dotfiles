@@ -19,17 +19,7 @@ ssh-add ~/.ssh/id_rsa &>/dev/null
 
 export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 
-# aww colors..
+# colors
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 export GREP_OPTIONS='--color=auto'
-
-# recursively search all files in director for a string
-function search() {
-  find . -type f -print0 | xargs -0 grep -l "$@"
-}
-
-# remove .DS_Store files
-function remove_ds_store() {
-  find . -name '*.DS_Store' -type f -delete
-}
