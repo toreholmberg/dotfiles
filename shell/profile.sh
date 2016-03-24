@@ -17,8 +17,6 @@ export PATH=/usr/local/sbin:$PATH
 # ssh-add permanent
 ssh-add ~/.ssh/id_rsa &>/dev/null
 
-export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
-
 # colors
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced

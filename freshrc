@@ -13,3 +13,6 @@ fresh shell/\*
 
 # helpers
 fresh helpers/\*
+
+# local (non-public)
+fresh local/\*
