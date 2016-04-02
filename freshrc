@@ -2,7 +2,6 @@
 fresh freshshell/fresh bin/fresh --bin
 
 # remote
-fresh jpettersson/dotfiles shell/prompt.sh
 fresh git/git contrib/completion/git-completion.bash
 
 # config
