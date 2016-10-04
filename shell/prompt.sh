@@ -11,7 +11,7 @@ function markup_git_branch {
     if [[ $(git status 2> /dev/null | tail -n1) = "nothing to commit, working directory clean" ]]; then
       echo -e ' \033[1;32m'"$1"'\033[0;30m'
     else
-      echo -e ' \033[1;31m'"$1"'♤\033[0;30m'
+      echo -e ' \033[1;33m'"$1"'\033[0;30m'
     fi
   fi
 }

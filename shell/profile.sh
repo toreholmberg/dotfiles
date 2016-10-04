@@ -26,3 +26,13 @@ ssh-add ~/.ssh/id_rsa &>/dev/null
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 export GREP_OPTIONS='--color=auto'
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f /Users/tore/google-cloud-sdk/path.bash.inc ]; then
+  source '/Users/tore/google-cloud-sdk/path.bash.inc'
+fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f /Users/tore/google-cloud-sdk/completion.bash.inc ]; then
+  source '/Users/tore/google-cloud-sdk/completion.bash.inc'
+fi
