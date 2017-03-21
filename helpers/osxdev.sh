@@ -10,3 +10,7 @@ function search() {
 function remove_ds_store() {
   find . -name '*.DS_Store' -type f -delete
 }
+
+function flush_dns() {
+  sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder;say cache flushed
+}
