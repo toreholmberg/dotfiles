@@ -14,3 +14,14 @@ function remove_ds_store() {
 function flush_dns() {
   sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder;say cache flushed
 }
+
+# creates react app from skeleton repo
+function new_react_app() {
+  if [ "$1" = "" ]
+  then
+    echo "Usage: new_react_app <app-name>"
+  else
+    git clone git@github.com:toreholmberg/react-skeleton.git $1
+    cd $1 && rm -rf .git && git init && yarn
+  fi
+}
