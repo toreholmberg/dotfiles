@@ -1,5 +1,4 @@
-#!/usr/bin/env bash
-
+#!/bin/bash
 # based on https://github.com/holman/dotfiles/blob/master/script/bootstrap
 
 DOTFILES_ROOT=$(pwd -P)

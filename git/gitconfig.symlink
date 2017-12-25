@@ -28,9 +28,3 @@
   lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
   s = status -sb
   prune = fetch --prune
-[diff]
-  tool = icdiff
-[difftool]
-  prompt = false
-[difftool "icdiff"]
-  cmd = /usr/local/bin/icdiff --line-numbers $LOCAL $REMOTE
